@@ -328,9 +328,9 @@ Ct_norm의 시계열 변화를 기준으로 플레이어 유형을 분류하였�
 
 |                             **TOP (탑)**                             |                           **JUNGLE (정글)**                           |
 |:-------------------------------------------------------------------:|:-------------------------------------------------------------------:|
-|   ![탑](analysis/analysis/output_plots/TOP_cluster_timeseries.png)   | ![정글](analysis/analysis/output_plots/JUNGLE_cluster_timeseries.png) |
+|   ![탑](TOP_cluster_timeseries.png)   | ![정글](JUNGLE_cluster_timeseries.png) |
 |                           **MIDDLE (미드)**                           |                           **BOTTOM(바텀)**                            |
-| ![미드](analysis/analysis/output_plots/MIDDLE_cluster_timeseries.png) |   ![바텀](analysis/analysis/output_plots/BOTTOM_cluster_timeseries.png)   |
+| ![미드](MIDDLE_cluster_timeseries.png) |   ![바텀](BOTTOM_cluster_timeseries.png)   |
 
 ---
 
@@ -355,6 +355,7 @@ Ct_norm의 시계열 변화를 기준으로 플레이어 유형을 분류하였�
 |                      **Ct_norm vs 10분 골드 격차 (전체)**                      |                           **라인별 Ct_norm ~ 10분 골드 격차 상관계수**                           |
 |:-----------------------------------------------------:|:-------------------------------------------------------------------:|
 | ![스캐터](gold_scatter.png) | ![바](gold_bar.png) |
+
 본 절에서는 골드 관련 지표가 기여도(Ct_norm)를 얼마나 잘 예측할 수 있는지를 확인하였다.  
 특히, “골드 = 성장 = 기여도”라는 가설을 검증하기 위해 다음 두 가지 관계를 살펴보았다.
 
